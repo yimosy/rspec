@@ -6,8 +6,8 @@ RSpec.describe Book, type: :model do
     expect(2 + 1).to eq 3
   end
   # 3と1を足すと4になること
-  it "adds 3 and 1 to make 3" do
-    expect(3 + 1).to eq 3
+  it "adds 3 and 1 to make 4" do
+    expect(3 + 1).to eq 4
   end
 
 #  pending "add some examples to (or delete) #{__FILE__}"
